@@ -11,5 +11,13 @@
 
 ## Getting Started Insructions
 ### Download and Import
+- Download SmartyStreetAPIHook.zip
+- Login to PolicyManager  example: http://localhost:9900
+- Select the organization you want to import the API Hook into and click on the "Import Package" from the Actions navigation window on the right side of the screen
 
+## Modify and Build
+In the event you need to change the API Hook.   Here are the instructions to do so. 
+
+## License
+Put a link to an open source license
 
