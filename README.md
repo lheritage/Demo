@@ -9,7 +9,7 @@
 - Login to Obtain the Auth ID and Auth Token
 - Install Authentication Custom Policies Follow instruction [Here] (http://GitHub.com)
 
-## Getting Started Insructions
+## Getting Started Instructions
 ### Download and Import
 - Download SmartyStreetAPIHook.zip
 - Login to PolicyManager  example: http://localhost:9900
