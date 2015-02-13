@@ -1,5 +1,10 @@
 # SmartyStreets API 
 ## About the API
-[SmartyStreet Home Page] (https://bitbucket.org/soasoftware/apihooks/src/f0a543b41c437a319e2a6573891813a01ff57f68/SmartyStreets_API/RAML/?at=master)
-## Usage
+Verify Addresses with SmartyStreet's USPS Address Verification API
+Home Page: [SmartyStreet] (https://smartystreets.com)
+API Documentation: [SmartyStreet API docs] (https://smartystreets.com/docs)
+## Pre-Reqs
+* Create an Account with [SmartyStreet]
+* Login to Obtain the Auth ID and Auth Token
+## Usage Insructions
 
