@@ -27,7 +27,7 @@ Link to product documentation and product overview page
 - Put in your Auth ID and Auth Token
 
 #### Verify Connectivity
-- 
+- Using curl bla bla bla
 
 ### Modify and Build
 In the event you need to change the API Hook.   Here are the instructions to do so. 
