@@ -16,6 +16,16 @@
 - Select the organization you want to import the API Hook into and click on the "Import Package" from the Actions navigation window on the right side of the screen
   - click on button to browse for the SmartyStreetAPIHook.zip archive file and click Okay.
 
+### Verify Import
+- Expand the services folder in the organization you imported the SmartyStreetAPIHook.zip into and find SmartyStreets_API
+
+### Configure Security
+- Open xxxx
+- Put in your Auth ID and Auth Token
+
+### Verify Connectivity
+- 
+
 ## Modify and Build
 In the event you need to change the API Hook.   Here are the instructions to do so. 
 
