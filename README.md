@@ -10,6 +10,9 @@ Link to product documentation and product overview page
 ### Pre-Reqs
 - Create an Account with [SmartyStreet] (https://smartystreets.com)
 - Login to Obtain the Auth ID and Auth Token
+- Using Firefox or any browser go to (https://api.smartystreets.com) and export the complete SSL certificate hierarchy as a .DER
+- Import the certificates into policy manager by selecting the Configure tab -> Security -> Certificates and click Add Trusted CA Certificate
+- - note this will take a couple of minutes to propegate to network director. 
 - Install Authentication Custom Policies Follow instruction [Here] (http://GitHub.com)
 
 ### Getting Started Instructions
