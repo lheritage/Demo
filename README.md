@@ -11,12 +11,12 @@ Link to product documentation and product overview page
 - Create an Account with [SmartyStreet] (https://smartystreets.com)
 - Login to Obtain the Auth ID and Auth Token
 - Using Firefox or any browser go to (https://api.smartystreets.com) and export the complete SSL certificate hierarchy as a .DER
-- Import the certificates into policy manager by selecting the Configure tab -> Security -> Certificates and click "Add Trusted CA Certificate" * note this will take a couple of minutes to propegate to network director. 
+- Import the certificates into policy manager by selecting the Configure tab -> Security -> Certificates and click "Add Trusted CA Certificate" * note this will take a couple of minutes to propagate to network director. 
 - Install Authentication Custom Policies Follow instruction [Here] (http://GitHub.com)
 
 ### Getting Started Instructions
 #### Download and Import
-- Download SmartyStreetAPIHook.zip
+- Download SmartyStreetAPIHook.zip ()
 - Login to PolicyManager  example: http://localhost:9900
 - Select the organization you want to import the API Hook into and click on the "Import Package" from the Actions navigation window on the right side of the screen
   - click on button to browse for the SmartyStreetAPIHook.zip archive file and click Okay.
