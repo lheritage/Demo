@@ -46,7 +46,7 @@ Link to product documentation and product overview page
 -
 
 #### Verify Connectivity
-- Using curl bla bla bla
+- Using your browser http://{Your HOST example: localhost:9901}/smarty/v1/validateStreet?street=12100 Wilshire Blvd&city=Los Angeles&state=CA&zipcode=90025
 
 ### Modify and Build
 In the event you need to change the API Hook.   Here are the instructions to do so. 
