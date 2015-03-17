@@ -46,20 +46,21 @@ Link to product documentation and product overview page
 -
 
 #### Verify Connectivity
+
 To verify connectivity we create a sample integration API called SmartyStreets_HelloWorldIntegaration_vs0.   You will find it in the services folder.
--- This integration API uses the GET street-address of the SmartyStreets API to validate an address and then appends a success status to the result of the invocation of the SmartyStreets API.
--- You can view the integration in PolicyManager by selecting the SmartyStreets_HelloWorldIntegration_vs0, selecting Operation from the menu bar, clicking on GET /validateStreet and select Process
+- This integration API uses the GET street-address of the SmartyStreets API to validate an address and then appends a success status to the result of the invocation of the SmartyStreets API.
+- You can view the integration in PolicyManager by selecting the SmartyStreets_HelloWorldIntegration_vs0, selecting Operation from the menu bar, clicking on GET /validateStreet and select Process
 
 Try out the integration
 - Using your browser http://{Your HOST example: localhost:9901}/smarty/v1/validateStreet?street=12100 Wilshire Blvd&city=Los Angeles&state=CA&zipcode=90025
-- 
 
 The results should look like this.   You can change the address you want to verify. 
 '''
 {"helloworld":"success",
  "helloWorld":[{"input_index":0,"candidate_index":0,"delivery_line_1":"12100 Wilshire Blvd","last_line":"Los Angeles CA 90025-7120","delivery_point_barcode":"900257120996","components":{"primary_number":"12100","street_name":"Wilshire","street_suffix":"Blvd","city_name":"Los Angeles","state_abbreviation":"CA","zipcode":"90025","plus4_code":"7120","delivery_point":"99","delivery_point_check_digit":"6"},"metadata":{"record_type":"H","zip_type":"Standard","county_fips":"06037","county_name":"Los Angeles","carrier_route":"C026","congressional_district":"33","building_default_indicator":"Y","rdi":"Commercial","elot_sequence":"0074","elot_sort":"A","latitude":34.04348,"longitude":-118.46757,"precision":"Zip9","time_zone":"Pacific","utc_offset":-8,"dst":true},"analysis":{"dpv_match_code":"D","dpv_footnotes":"AAN1","dpv_cmra":"N","dpv_vacant":"N","active":"Y","footnotes":"H#"}}]}
-
+ 
 '''
+
 About the HelloWorld
 
 ### Modify and Build
