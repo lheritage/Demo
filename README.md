@@ -12,7 +12,7 @@ Link to product documentation and product overview page
 - Login to Obtain the Auth ID and Auth Token
 - Using Firefox or any browser go to (https://api.smartystreets.com) and export the complete SSL certificate hierarchy as a .DER
 - Import the certificates into policy manager by selecting the Configure tab -> Security -> Certificates and click "Add Trusted CA Certificate" * note this will take a couple of minutes to propagate to network director. 
-- Install Authentication Custom Policies Follow instruction [Here] (http://GitHub.com)
+- Install Authentication Custom Policies Follow instruction [Here] (https://bitbucket.org/akana/apihooks/src/f0a543b41c437a319e2a6573891813a01ff57f68/pso.experimental.extensions/?at=master)
 
 ### Getting Started Instructions
 #### Download and Import
