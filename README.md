@@ -49,6 +49,9 @@ Link to product documentation and product overview page
 
 To verify connectivity we create a sample integration API called SmartyStreets_HelloWorldIntegaration_vs0.   You will find it in the services folder.
 - This integration API uses the GET street-address of the SmartyStreets API to validate an address and then appends a success status to the result of the invocation of the SmartyStreets API.
+- When viewing the details page of the SmartyStreets_HelloWorldIntegration_vs0 you will notice in the PolicyAttachment we have two operational policies attached.  
+    - The first one is for auditing.  
+    - The second one is the configurations we are supplying to the integration for authenticating to the SmartyStreets API.  
 - You can view the integration in PolicyManager by selecting the SmartyStreets_HelloWorldIntegration_vs0, selecting Operation from the menu bar, clicking on GET /validateStreet and select Process
 
 Try out the integration
@@ -61,7 +64,6 @@ The results should look like this.   You can change the address you want to veri
  
 ```
 
-About the HelloWorld
 
 ### Modify and Build
 In the event you need to change the API Hook.   Here are the instructions to do so. 
